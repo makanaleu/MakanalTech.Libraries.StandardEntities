@@ -5,9 +5,7 @@
     /// </summary>
     public abstract class TLanguage<T> : TEntity<T>, ILanguage<T>
     {
-        public TLanguage(string appellation) : base(appellation)
-        {
-        }
+        public TLanguage(string appellation) : base(appellation) { }
 
         /// <summary>
         /// A name used by a group or category of people to refer to themselves

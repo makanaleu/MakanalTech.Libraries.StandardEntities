@@ -2,6 +2,6 @@
 {
     public interface IUserEditable : IPersonEditable
     {
-        // TODO Add IUserEditable properties.
+        // TODO: Add IUserEditable properties.
     }
 }
