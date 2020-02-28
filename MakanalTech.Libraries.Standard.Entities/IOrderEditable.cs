@@ -65,6 +65,11 @@ namespace MakanalTech.Libraries.Standard.Entities
         DateTime EarliestShipDateTime { get; set; }
 
         /// <summary>
+        /// The estimated date the delivery may arrive.
+        /// </summary>
+        DateTime EstimatedDeliveryDateTime { get; set; }
+
+        /// <summary>
         /// The delivery of the parcel(s) related to this order.
         /// </summary>
         ICollection<IDelivery> OrderDeliveries { get; set; }

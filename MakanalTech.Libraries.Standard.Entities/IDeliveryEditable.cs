@@ -59,6 +59,21 @@ namespace MakanalTech.Libraries.Standard.Entities
         string Provider { get; set; }
 
         /// <summary>
+        /// Email address of the receiver.
+        /// </summary>
+        string ReceiverEmail { get; set; }
+
+        /// <summary>
+        /// Receiver of the delivery.
+        /// </summary>
+        string ReceiverPerson { get; set; }
+
+        /// <summary>
+        /// Phone number of the receiver.
+        /// </summary>
+        string ReceiverPhone { get; set; }
+
+        /// <summary>
         /// Shipper tracking number.
         /// </summary>
         string TrackingNumber { get; set; }

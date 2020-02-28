@@ -137,5 +137,10 @@
         /// Location of a public transit station or stop.
         /// </summary>
         string TransitStation { get; set; }
+
+        /// <summary>
+        /// Type of the address (i.e. Residential).
+        /// </summary>
+        string Type { get; set; }
     }
 }

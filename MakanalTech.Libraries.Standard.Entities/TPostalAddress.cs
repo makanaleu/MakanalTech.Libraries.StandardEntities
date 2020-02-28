@@ -32,5 +32,6 @@
         public string Sublocality { get; set; }
         public string Subpremise { get; set; }
         public string TransitStation { get; set; }
+        public string Type { get; set; }
     }
 }
