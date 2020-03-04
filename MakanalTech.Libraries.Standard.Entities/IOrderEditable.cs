@@ -67,7 +67,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// <summary>
         /// The estimated date the delivery may arrive.
         /// </summary>
-        DateTime EstimatedDeliveryDateTime { get; set; }
+        DateTime EstimatedDateTime { get; set; }
 
         /// <summary>
         /// The delivery of the parcel(s) related to this order.
