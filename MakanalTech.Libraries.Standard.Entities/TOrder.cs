@@ -19,7 +19,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         public string DiscountCurrency { get; set; }
         public DateTime EarliestDeliveryDateTime { get; set; }
         public DateTime EarliestShipDateTime { get; set; }
-        public DateTime EstimatedDeliveryDateTime { get; set; }
+        public DateTime EstimatedDateTime { get; set; }
         public ICollection<IDelivery> OrderDeliveries { get; set; }
         public DateTime OrderedDateTime { get; set; }
         public ICollection<IOrderItem> OrderItems { get; set; }
@@ -40,5 +40,6 @@ namespace MakanalTech.Libraries.Standard.Entities
         public string TaxAmountCurrrency { get; set; }
         public decimal TotalAmount { get; set; }
         public string TotalAmountCurrency { get; set; }
+
     }
 }
