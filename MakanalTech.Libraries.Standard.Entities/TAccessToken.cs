@@ -16,36 +16,36 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// <summary>
         /// Audience the access token is intended for.
         /// </summary>
-        public string Audience { get; set; }
+        public string? Audience { get; set; }
 
         /// <summary>
         /// Contents of the access token.
         /// </summary>
-        public string InnerToken { get; set; }
+        public string? InnerToken { get; set; }
 
         /// <summary>
         /// Issuer of the access token.
         /// </summary>
-        public string Issuer { get; set; }
+        public string? Issuer { get; set; }
 
         /// <summary>
         /// Subject or principal of the access token.
         /// </summary>
-        public string Subject { get; set; }
+        public string? Subject { get; set; }
 
         /// <summary>
         /// The type of access token (i.e. 'refresh', 'access', 'auth').
         /// </summary>
-        public string Type { get; set; }
+        public string? Type { get; set; }
 
         /// <summary>
         /// When the access token became valid.
         /// </summary>
-        public DateTime ValidFrom { get; set; }
+        public DateTime? ValidFrom { get; set; }
 
         /// <summary>
         /// When the access token expires.
         /// </summary>
-        public DateTime ValidTo { get; set; }
+        public DateTime? ValidTo { get; set; }
     }
 }

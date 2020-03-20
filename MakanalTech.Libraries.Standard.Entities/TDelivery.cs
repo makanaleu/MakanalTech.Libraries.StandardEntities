@@ -9,19 +9,19 @@ namespace MakanalTech.Libraries.Standard.Entities
         {
         }
 
-        public IPostalAddress DeliveryAddress { get; set; }
-        public string DeliveryMethod { get; set; }
-        public ICollection<IProduct> DeliveryPayload { get; set; }
-        public string DeliveryStatus { get; set; }
-        public DateTime ExpectedArrivalFromDateTime { get; set; }
-        public DateTime ExpectedArrivalUntilDateTime { get; set; }
-        public object OrderId { get; set; }
-        public IPostalAddress OriginAddress { get; set; }
-        public string Provider { get; set; }
-        public string RecipientEmail { get; set; }
-        public string RecipientPerson { get; set; }
-        public string RecipientPhone { get; set; }
-        public string TrackingNumber { get; set; }
-        public Uri TrackingUri { get; set; }
+        public IPostalAddress DeliveryAddress { get; set; } = null!;
+        public string? DeliveryMethod { get; set; }
+        public ICollection<IProduct> DeliveryPayload { get; set; } = null!;
+        public string? DeliveryStatus { get; set; }
+        public DateTime? ExpectedArrivalFromDateTime { get; set; }
+        public DateTime? ExpectedArrivalUntilDateTime { get; set; }
+        public object? OrderId { get; set; }
+        public IPostalAddress OriginAddress { get; set; } = null!;
+        public string? Provider { get; set; }
+        public string? RecipientEmail { get; set; }
+        public string? RecipientPerson { get; set; }
+        public string? RecipientPhone { get; set; }
+        public string? TrackingNumber { get; set; }
+        public Uri? TrackingUri { get; set; }
     }
 }

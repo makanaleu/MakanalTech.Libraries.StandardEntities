@@ -16,12 +16,12 @@
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string DiscountAmountCurrency { get; set; }
+        string? DiscountAmountCurrency { get; set; }
 
         /// <summary>
         /// Code used to redeem a discount.
         /// </summary>
-        string DiscountCode { get; set; }
+        string? DiscountCode { get; set; }
 
         /// <summary>
         /// Unit price multiplied by Quantity
@@ -32,7 +32,7 @@
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string ExtendedPriceCurrency { get; set; }
+        string? ExtendedPriceCurrency { get; set; }
 
         /// <summary>
         /// The item ordered.
@@ -42,7 +42,7 @@
         /// <summary>
         /// The number of the item within the order.
         /// </summary>
-        string ItemNumber { get; set; }
+        string? ItemNumber { get; set; }
 
         /// <summary>
         /// The number of the item ordered. If the property is not set, assume
@@ -53,12 +53,12 @@
         /// <summary>
         /// The unit of measure for the quantity (e.g. Each).
         /// </summary>
-        string QuantityUnit { get; set; }
+        string? QuantityUnit { get; set; }
 
         /// <summary>
         /// The current status of the order item.
         /// </summary>
-        string Status { get; set; }
+        string? Status { get; set; }
 
         /// <summary>
         /// Total of the tax for the order item.
@@ -69,7 +69,7 @@
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string TaxAmountCurrency { get; set; }
+        string? TaxAmountCurrency { get; set; }
 
         /// <summary>
         /// Final total of the order item.
@@ -80,7 +80,7 @@
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string TotalAmountCurrency { get; set; }
+        string? TotalAmountCurrency { get; set; }
 
         /// <summary>
         /// Unit price for a single quantity unit of the item.
@@ -91,6 +91,6 @@
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string UnitPriceCurrency { get; set; }
+        string? UnitPriceCurrency { get; set; }
     }
 }

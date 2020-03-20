@@ -18,7 +18,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// <summary>
         /// Method used for delivery or shipping.
         /// </summary>
-        string DeliveryMethod { get; set; }
+        string? DeliveryMethod { get; set; }
 
         /// <summary>
         /// Item(s) being shipped.
@@ -28,22 +28,22 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// <summary>
         /// Status of the delivery.
         /// </summary>
-        string DeliveryStatus { get; set; }
+        string? DeliveryStatus { get; set; }
 
         /// <summary>
         /// The earliest date the delivery may arrive.
         /// </summary>
-        DateTime ExpectedArrivalFromDateTime { get; set; }
+        DateTime? ExpectedArrivalFromDateTime { get; set; }
 
         /// <summary>
         /// The latest date the delivery may arrive.
         /// </summary>
-        DateTime ExpectedArrivalUntilDateTime { get; set; }
+        DateTime? ExpectedArrivalUntilDateTime { get; set; }
 
         /// <summary>
         /// The order the items in this delivery were included in.
         /// </summary>
-        object OrderId { get; set; }
+        object? OrderId { get; set; }
 
         /// <summary>
         /// Shipper's address.
@@ -56,31 +56,31 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// or goods on behalf of the provider. A provider may also serve as
         /// the seller.
         /// </summary>
-        string Provider { get; set; }
+        string? Provider { get; set; }
 
         /// <summary>
         /// Shipper tracking number.
         /// </summary>
-        string TrackingNumber { get; set; }
+        string? TrackingNumber { get; set; }
 
         /// <summary>
         /// Tracking url for the parcel delivery.
         /// </summary>
-        Uri TrackingUri { get; set; }
+        Uri? TrackingUri { get; set; }
 
         /// <summary>
         /// Email address of the receiver.
         /// </summary>
-        string RecipientEmail { get; set; }
+        string? RecipientEmail { get; set; }
 
         /// <summary>
         /// Phone number of the receiver.
         /// </summary>
-        string RecipientPhone { get; set; }
+        string? RecipientPhone { get; set; }
 
         /// <summary>
         /// Receiver of the delivery.
         /// </summary>
-        string RecipientPerson { get; set; }
+        string? RecipientPerson { get; set; }
     }
 }
