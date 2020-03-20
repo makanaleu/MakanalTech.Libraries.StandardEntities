@@ -29,13 +29,13 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string CancelledAmountCurrency { get; set; }
+        string? CancelledAmountCurrency { get; set; }
 
         /// <summary>
         /// A number that confirms the given order or payment has been
         /// received.
         /// </summary>
-        object ConfirmationNumber { get; set; }
+        object? ConfirmationNumber { get; set; }
 
         /// <summary>
         /// Any discount applied to an Order. Usually applies to the order
@@ -46,28 +46,28 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// <summary>
         /// Code used to redeem a discount.
         /// </summary>
-        string DiscountCode { get; set; }
+        string? DiscountCode { get; set; }
 
         /// <summary>
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string DiscountCurrency { get; set; }
+        string? DiscountCurrency { get; set; }
 
         /// <summary>
         /// Earliest date which an order may be delivered.
         /// </summary>
-        DateTime EarliestDeliveryDateTime { get; set; }
+        DateTime? EarliestDeliveryDateTime { get; set; }
 
         /// <summary>
         /// Earliest date which an order may be shipped.
         /// </summary>
-        DateTime EarliestShipDateTime { get; set; }
+        DateTime? EarliestShipDateTime { get; set; }
 
         /// <summary>
         /// The estimated date the delivery may arrive.
         /// </summary>
-        DateTime EstimatedDateTime { get; set; }
+        DateTime? EstimatedDeliveryDateTime { get; set; }
 
         /// <summary>
         /// The delivery of the parcel(s) related to this order.
@@ -77,7 +77,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// <summary>
         /// Date order was placed.
         /// </summary>
-        DateTime OrderedDateTime { get; set; }
+        DateTime? OrderedDateTime { get; set; }
 
         /// <summary>
         /// A collection of the items, services, and fees on the order.
@@ -87,34 +87,34 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// <summary>
         /// The current status of the order.
         /// </summary>
-        string OrderStatus { get; set; }
+        string? OrderStatus { get; set; }
 
         /// <summary>
         /// Type of order (i.e. Sale, Purchase, Work, etc.)
         /// </summary>
-        string OrderType { get; set; }
+        string? OrderType { get; set; }
 
         /// <summary>
         /// The name of the credit card or other method of payment for the
         /// order.
         /// </summary>
-        string PaymentMethod { get; set; }
+        string? PaymentMethod { get; set; }
 
         /// <summary>
         /// Reference to a purchase order related to this order.
         /// </summary>
-        object PurchaseOrderNumber { get; set; }
+        object? PurchaseOrderNumber { get; set; }
 
         /// <summary>
         /// Requested date which an order should be shipped.
         /// </summary>
-        DateTime RequestedShipDateTime { get; set; }
+        DateTime? RequestedShipDateTime { get; set; }
 
         /// <summary>
         /// Required date which an order must be delivered. A guarantee may be
         /// associated with the delivery time frame.
         /// </summary>
-        DateTime RequiredDeliveryTime { get; set; }
+        DateTime? RequiredDeliveryTime { get; set; }
 
         /// <summary>
         /// Indicates the order should be rushed.
@@ -130,7 +130,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// An entity which offers (sells / leases / lends / loans) the
         /// services / goods. A seller may also be a provider.
         /// </summary>
-        string Seller { get; set; }
+        string? Seller { get; set; }
 
         /// <summary>
         /// The seller address for the order.
@@ -152,7 +152,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string SubTotalAmountCurrency { get; set; }
+        string? SubTotalAmountCurrency { get; set; }
 
         /// <summary>
         /// The total amount of taxes for the order.
@@ -163,7 +163,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string TaxAmountCurrrency { get; set; }
+        string? TaxAmountCurrrency { get; set; }
 
         /// <summary>
         /// The total amount of the order (a.k.a. grand total).
@@ -174,6 +174,6 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string TotalAmountCurrency { get; set; }
+        string? TotalAmountCurrency { get; set; }
     }
 }

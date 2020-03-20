@@ -5,6 +5,6 @@
         /// <summary>
         /// Free-form text of the message.
         /// </summary>
-        string Body { get; set; }
+        string? Body { get; set; }
     }
 }
