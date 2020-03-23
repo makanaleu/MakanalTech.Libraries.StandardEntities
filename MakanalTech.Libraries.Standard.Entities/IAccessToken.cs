@@ -8,7 +8,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// Audience the access token is intended for.
         /// </summary>
         string? Audience { get; set; }
-        
+
         /// <summary>
         /// Contents of the access token.
         /// </summary>

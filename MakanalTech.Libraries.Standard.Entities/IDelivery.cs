@@ -1,6 +1,6 @@
 ﻿namespace MakanalTech.Libraries.Standard.Entities
 {
-    public interface IDelivery : 
+    public interface IDelivery :
         IDeliveryEditable, IService, ITransport, IEconomicActivity
     {
     }

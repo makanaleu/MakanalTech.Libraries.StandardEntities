@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MakanalTech.Libraries.Standard.Entities
+﻿namespace MakanalTech.Libraries.Standard.Entities
 {
     public interface ICustomerOrder : IOrder { }
 

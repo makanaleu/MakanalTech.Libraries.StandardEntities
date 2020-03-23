@@ -4,7 +4,7 @@
     /// Things that individuals can do with their minds.
     /// </summary>
     /// <remarks>https://www.wikidata.org/wiki/Q781413</remarks>
-    public interface IMentalProcess : 
+    public interface IMentalProcess :
         IBiologicalProcess, INervousSystemProcess
     {
     }

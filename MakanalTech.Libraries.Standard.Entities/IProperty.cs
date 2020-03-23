@@ -7,5 +7,5 @@
     /// <remarks>https://www.wikidata.org/wiki/Q937228</remarks>
     public interface IProperty : IQuality
     {
-    }                                                                                                                   
+    }
 }

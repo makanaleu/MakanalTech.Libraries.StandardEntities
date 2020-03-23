@@ -3,7 +3,7 @@
     public interface IPersonEditable : IEntityEditable
     {
         /// <summary>
-        /// Name typically used to differentiate people from the same family,  
+        /// Name typically used to differentiate people from the same family,
         /// clan, or other social group who have a common last name.
         /// </summary>
         /// <remarks>https://www.wikidata.org/wiki/Q202444</remarks>

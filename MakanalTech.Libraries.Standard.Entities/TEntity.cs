@@ -1,4 +1,5 @@
 ﻿#nullable disable
+
 using System;
 
 namespace MakanalTech.Libraries.Standard.Entities

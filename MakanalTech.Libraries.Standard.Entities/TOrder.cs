@@ -40,6 +40,5 @@ namespace MakanalTech.Libraries.Standard.Entities
         public string? TaxAmountCurrrency { get; set; }
         public decimal TotalAmount { get; set; }
         public string? TotalAmountCurrency { get; set; }
-
     }
 }
