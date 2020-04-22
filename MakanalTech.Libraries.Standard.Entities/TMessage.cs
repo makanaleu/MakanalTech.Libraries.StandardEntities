@@ -12,5 +12,8 @@
         }
 
         public string? Body { get; set; }
+        public string? Reference { get; set; }
+        public object? ReferenceId { get; set; }
+        public string? Type { get; set; }
     }
 }
