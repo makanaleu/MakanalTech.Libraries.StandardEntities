@@ -34,6 +34,8 @@ namespace MakanalTech.Libraries.Standard.Entities
         public string? Seller { get; set; }
         public IPostalAddress SellerAddress { get; set; } = null!;
         public IPerson SellerPerson { get; set; } = null!;
+        public decimal ShippingAmount { get; set; }
+        public string? ShippingAmountCurrency { get; set; }
         public decimal SubTotalAmount { get; set; }
         public string? SubTotalAmountCurrency { get; set; }
         public decimal TaxAmount { get; set; }

@@ -143,6 +143,17 @@ namespace MakanalTech.Libraries.Standard.Entities
         IPerson SellerPerson { get; set; }
 
         /// <summary>
+        /// The total amount of shipping fees for the order.
+        /// </summary>
+        decimal ShippingAmount { get; set; }
+
+        /// <summary>
+        /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
+        /// symbol for cryptocurrencies e.g. "BTC".
+        /// </summary>
+        string? ShippingAmountCurrency { get; set; }
+
+        /// <summary>
         /// The total amount from all order lines before order level amounts
         /// are applied (i.e. order discounts, taxes, shipping fee, etc.).
         /// </summary>
