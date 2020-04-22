@@ -37,6 +37,11 @@ namespace MakanalTech.Libraries.Standard.Entities
         string? DepthUnit { get; set; }
 
         /// <summary>
+        /// The description of the product.
+        /// </summary>
+        string? Description { get; set; }
+
+        /// <summary>
         /// A Global Trade Item Number (GTIN). GTINs identify trade items,
         /// including products and services, using numeric identification
         /// codes. The gtin property generalizes the earlier gtin8, gtin12,
@@ -114,6 +119,11 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// to which the offer refers.
         /// </summary>
         string? MPN { get; set; }
+
+        /// <summary>
+        /// The name of the product.
+        /// </summary>
+        string? Name { get; set; }
 
         /// <summary>
         /// Indicates the NATO stock number (nsn) of a Product.

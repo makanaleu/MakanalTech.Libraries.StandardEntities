@@ -14,6 +14,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         public string? Color { get; set; }
         public decimal Depth { get; set; }
         public string? DepthUnit { get; set; }
+        public string? Description { get; set; }
         public string? GTIN { get; set; }
         public string? GTIN12 { get; set; }
         public string? GTIN13 { get; set; }
@@ -26,6 +27,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         public string? Material { get; set; }
         public string? Model { get; set; }
         public string? MPN { get; set; }
+        public string? Name { get; set; }
         public string? NSN { get; set; }
         public DateTime? ProductionDateTime { get; set; }
         public DateTime? PurchaseDateTime { get; set; }
