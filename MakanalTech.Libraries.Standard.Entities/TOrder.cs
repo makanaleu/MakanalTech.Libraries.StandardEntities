@@ -39,7 +39,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         public decimal SubTotalAmount { get; set; }
         public string? SubTotalAmountCurrency { get; set; }
         public decimal TaxAmount { get; set; }
-        public string? TaxAmountCurrrency { get; set; }
+        public string? TaxAmountCurrency { get; set; }
         public decimal TotalAmount { get; set; }
         public string? TotalAmountCurrency { get; set; }
     }

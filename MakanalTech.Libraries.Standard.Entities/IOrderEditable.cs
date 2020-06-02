@@ -174,7 +174,7 @@ namespace MakanalTech.Libraries.Standard.Entities
         /// Use standard formats: ISO 4217 currency format e.g. "USD"; Ticker
         /// symbol for cryptocurrencies e.g. "BTC".
         /// </summary>
-        string? TaxAmountCurrrency { get; set; }
+        string? TaxAmountCurrency { get; set; }
 
         /// <summary>
         /// The total amount of the order (a.k.a. grand total).
